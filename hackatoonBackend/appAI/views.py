@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import DiagnosticIA
+from .serializers import DiagnosticIASerializer
 
-# Create your views here.
+class DiagnosticIAViewSet(viewsets.ModelViewSet):
+    queryset = DiagnosticIA.objects.all()
+    serializer_class = DiagnosticIASerializer

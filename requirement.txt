@@ -1,3 +1,5 @@
 django
 opencv-python
 ultralytics
+djangorestframework
+django-cors-headers
