@@ -2,7 +2,7 @@
 
 A complete solution for monitoring athlete training, consisting of a Django Backend, a React Web Admin Dashboard, and a React Native (Expo) Mobile App for athletes.
 
-## 🏗️ Project Structure
+## Project Structure
 
 -   `hackatoonBackend/`: **Backend API** (Django REST Framework).
 -   `web-front-end/`: **Admin Dashboard** (React + Vite).
@@ -10,7 +10,7 @@ A complete solution for monitoring athlete training, consisting of a Django Back
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Backend API (`hackatoonBackend`)
 *Manages database, users, and API endpoints.*
@@ -80,9 +80,9 @@ npx expo start
 
 ---
 
-## 🛠️ Configuration
+## Configuration
 -   **Mobile API URL**: The mobile app uses `constants/config.ts` to automatically detect your PC's IP address.
 -   **Permissions**: Ensure your firewall allows connections to port `8000`.
 
-## 🤖 Future Steps
+## Future Steps
 -   **AI Integration**: The endpoint `/api/diagnostics/` is ready to receive analysis data from the AI module.
